@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="game-container">
+        <canvas id="game-board"></canvas>
+        <div class="side-panel">
+            <div class="next-piece">
+                <span class="next">Next</span>
+                <canvas id="next-piece"></canvas>
+            </div>    
+            <div class="score">Score :<span id="score"> 0</span> </div>
+            <div class="level">Level :<span id="level"> 0</span> </div>
+            <div class="score">Lines :<span id="lines"> 0</span> </div>
+            <button id="start-button">Start Game</button>
+        </div>
+    </div>
+
+<script src="tetris.js"></script>
+</body>
+</html>

@@ -1,0 +1,85 @@
+:root {
+    --piece-o-color: #7AB2D3;
+    --piece-t-color: #d7ec13;
+    --piece-j-color: #0ace5c;
+    --piece-l-color: #f03607;
+    --piece-i-color: #e00dc4;
+    --piece-s-color: #f1b40c;
+    --piece-z-color: #420ba8;
+
+}
+
+
+body{
+    margin: 0;
+    background-color: grey;
+    padding: 0;
+    font-family: 'Press Start 2P', system-ui;
+    font-weight: 500;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.game-container{
+    display: flex;
+    gap: 20px;
+    width: 650px;
+    background-color: rgb(71, 71, 71);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgb(151, 188, 223);
+}
+
+canvas{
+    border-radius: 5px;
+    border: 2px solid rgb(255, 250, 250);
+    box-shadow: 0 0 5px black;
+    margin-top: 28px;
+}
+
+.side-panel{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.score, .level, .lines{
+    margin-top: 5px;
+    text-align: center;
+    margin-left: 50px;
+    background-color: rgb(32, 30, 34);
+    padding: 5px;
+    border-radius: 10px;
+    width: 200px;
+}
+.next-piece{
+    background-color: rgb(32, 30, 34);
+    width: 305px;
+    padding-top: 5px;
+    /* margin-top: 20px; */
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+
+#start-button{
+    margin-top: 20px;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: aqua;
+    font-family:"Press Start 2p";
+    cursor: pointer;
+    box-shadow: 0 3px 5px black;
+    transition: all 0.3s ease;
+}
+
+#start-button:hover{
+    transform: scale(1.04);
+    background-color: rgb(36, 170, 170);
+}
+
